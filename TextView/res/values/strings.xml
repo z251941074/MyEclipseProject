@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">" TextView"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="web">网址：http://www.ifeng.com</string>
+    <string name="tel">电话：18281578389</string>
+    <string name="email">电子邮件：zhaochuang8888@126.com</string>
+</resources>

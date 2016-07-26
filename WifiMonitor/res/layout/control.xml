@@ -1,0 +1,131 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:padding="10dp"
+    android:shrinkColumns="1"
+    android:stretchColumns="0" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="设置服务器端的IP地址："
+        android:textColor="#000000" />
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/IpEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:hint="请输入服务器IP"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/IpBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="连接" />
+    </TableRow>
+
+    <!-- <TextView -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="网络连接状态：" -->
+    <!-- android:textColor="#000000" /> -->
+
+    <EditText
+        android:id="@+id/NetState"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:hint="网络连接状态："
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="相关控制命令"
+        android:textColor="#000000" />
+
+    <LinearLayout>
+
+        <Button
+            android:id="@+id/OpenWin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打开窗户" />
+
+        <Button
+            android:id="@+id/CloseWin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关闭窗户" />
+
+        <Button
+            android:id="@+id/CloseGas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关煤气" />
+
+        <Button
+            android:id="@+id/SendMMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="通知物业" />
+    </LinearLayout>
+
+    <!-- <TextView -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="状态查询" -->
+    <!-- android:textColor="#000000" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/CheckStat" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="查询有害气体浓度" /> -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="控制命令形式输入"
+        android:textColor="#000000" />
+
+    <TableRow>
+
+
+        <EditText
+            android:id="@+id/OderEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入相关命令:TMPASK"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/SendBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认" />
+        
+    </TableRow>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="室内环境信息："
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/Roomifno"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:editable="false"
+        android:gravity="top"
+        android:hint="室内的环境信息："
+        android:textColor="#000000" />
+
+</TableLayout>

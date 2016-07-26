@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, client!</string>
+    <string name="app_name">无线智能视频定位车</string>
+<string name="during_timer_scale">1000</string><string name="during_timer">500</string><string name="load_tips">等待服务器gps数据...</string>
+<string name="car_button_size">70px</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+    <TextView
+    	android:id="@+id/textyz1"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="请对应自身日常行为动作（例如走路、坐下等）速度，点击以下按钮"
+    	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+    	android:id="@+id/yz2"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignLeft="@+id/yz3"
+    	android:layout_below="@+id/yz1"
+    	android:layout_marginTop="16dp"
+    	android:onClick="btyz2onclick"
+    	android:text="与同龄人差不多" />
+
+    <Button
+    	android:id="@+id/yz3"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true"
+    	android:layout_below="@+id/yz2"
+    	android:layout_marginLeft="42dp"
+    	android:layout_marginTop="23dp"
+    	android:onClick="btyz3onclick"
+    	android:text="比同龄人慢一点" />
+
+    <Button
+    	android:id="@+id/yz4"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignRight="@+id/yz3"
+    	android:layout_below="@+id/yz3"
+    	android:layout_marginRight="26dp"
+    	android:layout_marginTop="34dp"
+    	android:onClick="btyz4onclick"
+    	android:text="确定选择" />
+
+    <Button
+    	android:id="@+id/yz1"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignLeft="@+id/yz2"
+    	android:layout_below="@+id/textyz1"
+    	android:layout_marginTop="28dp"
+    	android:onClick="btyz1onclick"
+    	android:text="比同龄人快一点" />
+
+</RelativeLayout>

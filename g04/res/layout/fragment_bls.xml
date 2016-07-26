@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+   <TextView
+		android:id="@+id/textView2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/textView1"
+		android:layout_below="@+id/textView1"
+		android:layout_marginTop="10dp"
+		android:text="报警音效2" 
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<TextView
+		android:id="@+id/textView3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/textView2"
+		android:layout_below="@+id/textView2"
+		android:layout_marginTop="10dp"
+		android:text="报警音效3" 
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<TextView
+		android:id="@+id/textView4"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignRight="@+id/textView3"
+		android:layout_below="@+id/textView3"
+		android:layout_marginTop="10dp"
+		android:text="报警音效4" 
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<TextView
+		android:id="@+id/textView5"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/textView4"
+		android:layout_below="@+id/textView4"
+		android:layout_marginTop="10dp"
+		android:text="报警音效5"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<TextView
+		android:id="@+id/textView6"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/textView5"
+		android:layout_below="@+id/textView5"
+		android:layout_marginTop="10dp"
+		android:text="报警音效6"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<TextView
+		android:id="@+id/textView7"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/textView6"
+		android:layout_below="@+id/textView6"
+		android:layout_marginTop="10dp"
+		android:layout_toLeftOf="@+id/mediaController1"
+		android:text="报警音效7"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<TextView
+		android:id="@+id/textView8"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/textView7"
+		android:layout_below="@+id/textView7"
+		android:layout_marginTop="10dp"
+		android:text="报警音效8" 
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<TextView
+		android:id="@+id/textView9"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/textView8"
+		android:layout_below="@+id/textView8"
+		android:layout_marginTop="10dp"
+		android:text="报警音效9"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<TextView
+		android:id="@+id/textView10"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/textView9"
+		android:layout_below="@+id/textView9"
+		android:layout_marginTop="10dp"
+		android:text="报警音效10"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="10dp"
+		android:text="报警音效1"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<Button
+		android:id="@+id/button_lb1"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignRight="@+id/textView10"
+		android:text="返回" 
+		android:onClick="bt034onclick"
+		/>
+
+	<TextView
+		android:id="@+id/textView11"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/textView10"
+		android:layout_below="@+id/textView10"
+		android:layout_marginTop="10dp"
+		android:text="报警音效11"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		 />
+
+	<Button
+		android:id="@+id/button_lm1_1"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/textView1"
+		android:layout_alignBottom="@+id/textView1"
+		android:layout_centerHorizontal="true"
+		android:text="试听"
+		android:onClick="bt01onclick" />
+
+	<Button
+		android:id="@+id/button_lm1_2"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/button_lm1_1"
+		android:layout_alignBottom="@+id/button_lm1_1"
+		android:layout_toRightOf="@+id/button_lm1_1"
+		android:text="停止" 
+		android:onClick="bt02onclick"/>
+
+	<Button
+		android:id="@+id/button_lm1_3"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/button_lm1_2"
+		android:layout_alignBottom="@+id/button_lm1_2"
+		android:layout_toRightOf="@+id/button_lm1_2"
+		android:text="选定"
+		android:onClick="bt03onclick" />
+
+	<Button
+		android:id="@+id/button_lm2_1"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView3"
+		android:layout_below="@+id/button_lm1_1"
+		android:layout_toLeftOf="@+id/button_lm1_2"
+		android:text="试听" 
+		android:onClick="bt04onclick"/>
+
+	<Button
+		android:id="@+id/button_lm2_2"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView3"
+		android:layout_below="@+id/button_lm1_1"
+		android:layout_toLeftOf="@+id/button_lm1_3"
+		android:layout_toRightOf="@+id/button_lm2_1"
+		android:text="停止"
+		android:onClick="bt05onclick" />
+
+	<Button
+		android:id="@+id/button_lm2_3"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView3"
+		android:layout_alignLeft="@+id/button_lm1_3"
+		android:layout_below="@+id/button_lm1_3"
+		android:text="选定" 
+		android:onClick="bt06onclick"/>
+
+	<Button
+		android:id="@+id/button_lm3_1"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView4"
+		android:layout_below="@+id/button_lm2_1"
+		android:layout_centerHorizontal="true"
+		android:text="试听" 
+		android:onClick="bt07onclick"/>
+
+	<Button
+		android:id="@+id/button_lm3_2"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView4"
+		android:layout_alignLeft="@+id/button_lm2_2"
+		android:layout_alignTop="@+id/button_lm3_1"
+		android:text="停止" 
+		android:onClick="bt08onclick"/>
+
+	<Button
+		android:id="@+id/button_lm3_3"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView4"
+		android:layout_alignLeft="@+id/button_lm2_3"
+		android:layout_alignTop="@+id/button_lm3_2"
+		android:text="选定" 
+		android:onClick="bt09onclick"/>
+
+	<Button
+		android:id="@+id/button_lm4_1"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView5"
+		android:layout_alignLeft="@+id/button_lm3_1"
+		android:layout_below="@+id/button_lm3_1"
+		android:text="试听" 
+		android:onClick="bt010onclick"/>
+
+	<Button
+		android:id="@+id/button_lm4_2"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView5"
+		android:layout_alignTop="@+id/button_lm4_1"
+		android:layout_toRightOf="@+id/button_lm3_1"
+		android:text="停止" 
+		android:onClick="bt011onclick"/>
+
+	<Button
+		android:id="@+id/button_lm4_3"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView5"
+		android:layout_alignLeft="@+id/button_lm3_3"
+		android:layout_alignTop="@+id/button_lm4_2"
+		android:text="选定"
+		android:onClick="bt012onclick" />
+
+	<Button
+		android:id="@+id/button_lm5_1"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView6"
+		android:layout_below="@+id/button_lm4_1"
+		android:layout_toLeftOf="@+id/button_lm4_2"
+		android:text="试听" 
+		android:onClick="bt013onclick"/>
+
+	<Button
+		android:id="@+id/button_lm5_2"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/button_lm5_1"
+		android:layout_alignTop="@+id/button_lm5_1"
+		android:layout_toRightOf="@+id/button_lm4_1"
+		android:text="停止"
+		android:onClick="bt014onclick" />
+
+	<Button
+		android:id="@+id/button_lm5_3"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView6"
+		android:layout_alignTop="@+id/button_lm5_2"
+		android:layout_toRightOf="@+id/button_lm4_2"
+		android:text="选定" 
+		android:onClick="bt015onclick"/>
+
+	<Button
+		android:id="@+id/button_lm6_1"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView7"
+		android:layout_alignLeft="@+id/button_lm5_1"
+		android:layout_below="@+id/button_lm5_1"
+		android:text="试听"
+		android:onClick="bt016onclick" />
+
+	<Button
+		android:id="@+id/button_lm6_2"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView7"
+		android:layout_alignLeft="@+id/button_lm5_2"
+		android:layout_alignTop="@+id/button_lm6_1"
+		android:text="停止" 
+		android:onClick="bt017onclick"/>
+
+	<Button
+		android:id="@+id/button_lm6_3"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView7"
+		android:layout_below="@+id/button_lm5_3"
+		android:layout_toRightOf="@+id/button_lm5_2"
+		android:text="选定"
+		android:onClick="bt018onclick" />
+
+	<Button
+		android:id="@+id/button_lm7_1"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView8"
+		android:layout_alignLeft="@+id/button_lm6_1"
+		android:layout_below="@+id/button_lm6_1"
+		android:text="试听"
+		android:onClick="bt019onclick" />
+
+	<Button
+		android:id="@+id/button_lm7_2"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/button_lm7_1"
+		android:layout_alignTop="@+id/button_lm7_1"
+		android:layout_toRightOf="@+id/button_lm6_1"
+		android:text="停止" 
+		android:onClick="bt020onclick"/>
+
+	<Button
+		android:id="@+id/button_lm7_3"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView8"
+		android:layout_alignLeft="@+id/button_lm6_3"
+		android:layout_alignTop="@+id/button_lm7_2"
+		android:text="选定"
+		android:onClick="bt021onclick" />
+
+	<Button
+		android:id="@+id/button_lm8_1"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView9"
+		android:layout_alignLeft="@+id/button_lm7_1"
+		android:layout_below="@+id/button_lm7_1"
+		android:text="试听" 
+		android:onClick="bt022onclick"/>
+
+	<Button
+		android:id="@+id/button_lm8_2"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView9"
+		android:layout_alignLeft="@+id/button_lm7_2"
+		android:layout_alignTop="@+id/button_lm8_1"
+		android:text="停止" 
+		android:onClick="bt023onclick"/>
+
+	<Button
+		android:id="@+id/button_lm8_3"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView9"
+		android:layout_alignLeft="@+id/button_lm7_3"
+		android:layout_alignTop="@+id/button_lm8_2"
+		android:text="选定" 
+		android:onClick="bt024onclick"/>
+
+	<Button
+		android:id="@+id/button_lm9_1"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView10"
+		android:layout_alignLeft="@+id/button_lm8_1"
+		android:layout_below="@+id/button_lm8_1"
+		android:text="试听" 
+		android:onClick="bt025onclick"/>
+
+	<Button
+		android:id="@+id/button_lm9_2"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/button_lm9_1"
+		android:layout_alignTop="@+id/button_lm9_1"
+		android:layout_toRightOf="@+id/button_lm9_1"
+		android:text="停止" 
+		android:onClick="bt026onclick"/>
+
+	<Button
+		android:id="@+id/button_lm9_3"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/button_lm9_2"
+		android:layout_alignLeft="@+id/button_lm8_3"
+		android:layout_alignTop="@+id/button_lm9_2"
+		android:text="选定" 
+		android:onClick="bt027onclick"/>
+
+	<Button
+		android:id="@+id/button_lm10_1"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView11"
+		android:layout_alignLeft="@+id/button_lm9_1"
+		android:layout_below="@+id/button_lm9_1"
+		android:text="试听" 
+		android:onClick="bt028onclick"/>
+
+	<Button
+		android:id="@+id/button_lm10_2"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView11"
+		android:layout_alignLeft="@+id/button_lm9_2"
+		android:layout_alignTop="@+id/button_lm10_1"
+		android:text="停止"
+		android:onClick="bt029onclick" />
+
+	<Button
+		android:id="@+id/button_lm10_3"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/textView11"
+		android:layout_alignLeft="@+id/button_lm9_3"
+		android:layout_alignTop="@+id/button_lm10_2"
+		android:text="选定" 
+		android:onClick="bt030onclick"/>
+
+	<Button
+		android:id="@+id/button_lm11_1"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/textView11"
+		android:layout_alignLeft="@+id/button_lm10_1"
+		android:layout_below="@+id/button_lm10_1"
+		android:text="试听" 
+		android:onClick="bt031onclick"/>
+
+	<Button
+		android:id="@+id/button_lm11_2"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/button_lm11_1"
+		android:layout_alignLeft="@+id/button_lm10_2"
+		android:layout_below="@+id/button_lm10_2"
+		android:text="停止" 
+		android:onClick="bt032onclick"/>
+
+	<Button
+		android:id="@+id/button_lm11_3"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/button_lm11_2"
+		android:layout_alignLeft="@+id/button_lm10_3"
+		android:layout_alignTop="@+id/button_lm11_2"
+		android:text="选定" 
+		android:onClick="bt033onclick"/>
+	
+
+</RelativeLayout>

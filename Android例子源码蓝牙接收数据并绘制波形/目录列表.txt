@@ -1,0 +1,129 @@
+文件夹 PATH 列表
+卷序列号为 63A57259 3CD2:D088
+C:.
+│  javaapk.com文件列表生成工具.bat
+│  JavaApk源码说明.txt
+│  点这里查看更多优质源码~.url
+│  目录列表.txt
+│  
+└─BluetoothActivity
+    │  .classpath
+    │  .project
+    │  AndroidManifest.xml
+    │  ic_launcher-web.png
+    │  proguard-project.txt
+    │  project.properties
+    │  
+    ├─.settings
+    │      org.eclipse.jdt.core.prefs
+    │      
+    ├─assets
+    ├─bin
+    │  │  AndroidManifest.xml
+    │  │  BluetoothActivity.apk
+    │  │  classes.dex
+    │  │  jarlist.cache
+    │  │  R.txt
+    │  │  resources.ap_
+    │  │  
+    │  ├─classes
+    │  │  └─com
+    │  │      └─example
+    │  │          └─bluetoothactivity
+    │  │                  BuildConfig.class
+    │  │                  MainActivity$1.class
+    │  │                  MainActivity$2.class
+    │  │                  MainActivity$3.class
+    │  │                  MainActivity$BlueBroadcastReceiver.class
+    │  │                  MainActivity$ConnectedThread.class
+    │  │                  MainActivity$DrawThread$1.class
+    │  │                  MainActivity$DrawThread.class
+    │  │                  MainActivity$ListChooseListener.class
+    │  │                  MainActivity$MyButtonClearListener.class
+    │  │                  MainActivity$MyButtonListener.class
+    │  │                  MainActivity$MyButtonStopListener.class
+    │  │                  MainActivity.class
+    │  │                  R$attr.class
+    │  │                  R$dimen.class
+    │  │                  R$drawable.class
+    │  │                  R$id.class
+    │  │                  R$layout.class
+    │  │                  R$menu.class
+    │  │                  R$string.class
+    │  │                  R$style.class
+    │  │                  R.class
+    │  │                  
+    │  ├─dexedLibs
+    │  │      android-support-v4-2311661611935eaf83951d66680159d2.jar
+    │  │      android-support-v4-54bb68d0f7efad773aca5601719ffc09.jar
+    │  │      android-support-v7-appcompat-ab6d3e2785a7dbbf4bc28a73ac5b64b8.jar
+    │  │      appcompat_v7_3-18e481a52f6877167ee7513ef5a56d0a.jar
+    │  │      
+    │  └─res
+    │      └─crunch
+    │          ├─drawable-hdpi
+    │          │      ic_launcher.png
+    │          │      
+    │          ├─drawable-mdpi
+    │          │      ic_launcher.png
+    │          │      
+    │          ├─drawable-xhdpi
+    │          │      ic_launcher.png
+    │          │      
+    │          └─drawable-xxhdpi
+    │                  ic_launcher.png
+    │                  
+    ├─gen
+    │  └─com
+    │      └─example
+    │          └─bluetoothactivity
+    │                  BuildConfig.java
+    │                  R.java
+    │                  
+    ├─libs
+    │      android-support-v4.jar
+    │      
+    ├─res
+    │  ├─drawable-hdpi
+    │  │      ic_launcher.png
+    │  │      
+    │  ├─drawable-ldpi
+    │  ├─drawable-mdpi
+    │  │      ic_launcher.png
+    │  │      
+    │  ├─drawable-xhdpi
+    │  │      ic_launcher.png
+    │  │      
+    │  ├─drawable-xxhdpi
+    │  │      ic_launcher.png
+    │  │      
+    │  ├─layout
+    │  │      activity_main.xml
+    │  │      array_item.xml
+    │  │      
+    │  ├─menu
+    │  │      main.xml
+    │  │      
+    │  ├─values
+    │  │      dimens.xml
+    │  │      strings.xml
+    │  │      styles.xml
+    │  │      
+    │  ├─values-sw600dp
+    │  │      dimens.xml
+    │  │      
+    │  ├─values-sw720dp-land
+    │  │      dimens.xml
+    │  │      
+    │  ├─values-v11
+    │  │      styles.xml
+    │  │      
+    │  └─values-v14
+    │          styles.xml
+    │          
+    └─src
+        └─com
+            └─example
+                └─bluetoothactivity
+                        MainActivity.java
+                        

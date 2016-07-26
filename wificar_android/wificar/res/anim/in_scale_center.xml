@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	/*设置缩放  从50%到100%*/
+	<scale android:interpolator="@android:anim/decelerate_interpolator"
+		android:fromXScale="0.0" android:toXScale="1.0" android:fromYScale="0.0"
+		android:toYScale="1.0" android:pivotX="50%" android:pivotY="50%"
+		android:fillAfter="false" android:duration="@string/during_timer_scale" />
+	/*设置透明度  从0.3到1*/
+	<alpha android:fromAlpha="0.3" android:toAlpha="1.0" 
+		android:duration="@string/during_timer_scale"/> 
+</set>

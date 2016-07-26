@@ -1,0 +1,2 @@
+1 AndroidClient2注释,包含全部功能，包含全部注释信息
+2 AndroidClient2 实现对灯的控制，点亮和关闭。

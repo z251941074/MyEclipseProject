@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+    <TextView
+    	android:id="@+id/tipTextView"
+    	android:layout_width="258dp"
+    	android:layout_height="75dp"
+    	android:text="修改监护人号码"
+    	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+    	android:id="@+id/phoneEditText"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true"
+    	android:layout_below="@+id/tipTextView"
+    	android:layout_marginTop="81dp"
+    	android:ems="10"
+    	android:hint="请输入新的监护人的电话号码！"
+    	android:inputType="phone"
+    	android:phoneNumber="true" />
+
+    <Button
+    	android:id="@+id/button_quxiao"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignBaseline="@+id/button_genggai"
+    	android:layout_alignBottom="@+id/button_genggai"
+    	android:layout_alignParentRight="true"
+    	android:layout_marginRight="42dp"
+    	android:text="取消修改" />
+
+    <Button
+    	android:id="@+id/button_genggai"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true"
+    	android:layout_below="@+id/phoneEditText"
+    	android:layout_marginLeft="19dp"
+    	android:layout_marginTop="86dp"
+    	android:text="确定修改" />
+
+</RelativeLayout>
+

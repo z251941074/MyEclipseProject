@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/layout_CONTENT"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:padding="@dimen/content_padding" >
+
+       <LinearLayout
+            android:id="@+id/layout_TABLE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/table_margin"
+            android:background="@color/table_background"
+            android:padding="@dimen/table_padding" >
+
+          <Button
+				android:id="@+id/layout_account"
+               style="@style/text_black_18"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_height"
+                android:background="@drawable/row_selector"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_account" />
+        </LinearLayout>
+
+       
+        <LinearLayout
+            android:id="@+id/layout_TABLE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/table_margin"
+            android:background="@color/table_background"
+            android:orientation="vertical"
+            android:padding="@dimen/table_padding" >
+			   <Button
+                android:id="@+id/layout_notification"
+               style="@style/text_black_18"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_height"
+                android:background="@drawable/row_selector"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_notification" />
+			   </LinearLayout>
+			   
+			<LinearLayout
+            android:id="@+id/layout_TABLE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/table_margin"
+            android:background="@color/table_background"
+            android:padding="@dimen/table_padding" >
+			   
+                <Button
+                android:id="@+id/layout_privacy"
+               style="@style/text_black_18"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_height"
+                android:background="@drawable/row_selector"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_privacy" />
+                </LinearLayout>
+
+			<LinearLayout
+            android:id="@+id/layout_TABLE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/table_margin"
+            android:background="@color/table_background"
+            android:padding="@dimen/table_padding" >
+                
+               <Button
+               	android:id="@+id/layout_general"
+                style="@style/text_black_18"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_height"
+                android:background="@drawable/row_selector"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_general" />
+
+        </LinearLayout>
+
+			
+        <LinearLayout
+            android:id="@+id/layout_TABLE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/table_margin"
+            android:background="@color/table_background"
+            android:padding="@dimen/table_padding" >
+
+
+                <Button
+                android:id="@+id/layout_about"
+                style="@style/text_black_18"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_height"
+                android:background="@drawable/row_selector"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_about" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_TABLE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/table_margin"
+            android:background="@color/table_background"
+            android:padding="@dimen/table_padding" >
+            
+            <Button
+                android:id="@+id/layout_back"
+                style="@style/text_black_18"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_height"
+                android:background="@drawable/row_selector"
+                android:gravity="center_vertical|center"
+                android:text="返回"
+                android:onClick="btsebonclick" />
+        </LinearLayout>
+
+        <Button
+        	android:id="@+id/layout_exit"
+        	style="@style/text_black_18"
+        	android:layout_width="match_parent"
+        	android:layout_height="@dimen/row_height"
+        	android:background="@drawable/row_selector"
+        	android:gravity="center_vertical|center"
+        	android:text="@string/text_exit" />
+
+    </LinearLayout>
+
+</LinearLayout>

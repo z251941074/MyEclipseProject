@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    xmlns:android="http://schemas.android.com/apk/res/android">  
+<EditText    
+    android:id="@+id/input"   
+    android:layout_gravity="center"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"   
+    android:editable="false"/>  
+<EditText  
+    android:id="@+id/output"   
+    android:layout_gravity="center"  
+    android:gravity="right"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"   
+    android:text="00"  
+    android:editable="false"/>      
+  
+<RelativeLayout   
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent">  
+      
+<Button  
+    android:layout_alignParentLeft="true"  
+    android:id="@+id/seven"   
+    android:layout_width="80px"    
+    android:layout_height="70px"   
+    android:textSize="60dip"  
+/>  
+<Button  
+    android:id="@+id/eight"   
+    android:layout_width="80px"   
+    android:layout_height="70px"   
+    android:layout_toRightOf="@id/seven"  
+    android:textSize="40dip"  
+/>  
+<Button  
+    android:id="@+id/nine"   
+    android:layout_width="80px"    
+    android:layout_height="70px"   
+    android:layout_toRightOf="@id/eight"  
+    android:textSize="40dip"  
+/>  
+<Button  
+    android:layout_alignParentRight="true"  
+    android:id="@+id/add"   
+    android:layout_width="80px"   
+    android:layout_height="70px"   
+    android:layout_toRightOf="@id/nine"     
+    android:textSize="40dip"   
+/>      
+<Button  
+    android:layout_alignParentLeft="true"  
+    android:layout_below="@id/seven"  
+    android:id="@+id/four"   
+    android:layout_width="80px"   
+    android:layout_height="70px"   
+    android:textSize="40dip"  
+/>  
+<Button  
+    android:id="@+id/five"   
+    android:layout_width="80px"   
+    android:layout_below="@id/eight"  
+    android:layout_height="70px"   
+    android:layout_toRightOf="@id/four"  
+    android:textSize="40dip"  
+/>  
+<Button  
+    android:id="@+id/six"   
+    android:layout_width="80px"   
+    android:layout_height="70px"   
+    android:layout_toRightOf="@id/five"  
+    android:layout_below="@id/nine"  
+    android:textSize="40dip"  
+/>  
+<Button  
+    android:layout_alignParentRight="true"  
+    android:id="@+id/subtract"   
+    android:layout_width="80px"   
+    android:layout_height="70px"   
+    android:layout_toRightOf="@id/six"  
+    android:layout_below="@id/add"  
+    android:textSize="40dip"  
+/>  
+<Button  
+    android:layout_alignParentLeft="true"  
+    android:layout_below="@id/four"  
+    android:id="@+id/one"   
+    android:layout_width="80px"   
+    android:layout_height="70px"   
+    android:textSize="40dip"  
+/>  
+<Button  
+    android:id="@+id/two"   
+    android:layout_width="80px"   
+    android:layout_height="70px"   
+    android:layout_toRightOf="@id/one"  
+    android:layout_below="@id/five"  
+    android:textSize="40dip"  
+/>  
+<Button  
+    android:id="@+id/three"   
+    android:layout_width="80px"   
+    android:layout_height="70px"   
+    android:layout_toRightOf="@id/two"  
+    android:layout_below="@id/six"  
+    android:textSize="40dip"  
+/>  
+<Button  
+    android:layout_alignParentRight="true"  
+    android:id="@+id/multiply"   
+    android:layout_width="80px"   
+    android:layout_height="70px"   
+    android:layout_toRightOf="@id/three"  
+    android:layout_below="@id/subtract"  
+    android:textSize="40dip"  
+/>  
+<Button  
+    android:layout_alignParentLeft="true"  
+    android:layout_below="@id/one"  
+    android:id="@+id/zero"   
+    android:layout_width="80px"   
+    android:layout_height="70px"   
+    android:textSize="40dip"  
+/>  
+<Button  
+    android:id="@+id/clear"   
+    android:layout_width="80px"   
+    android:layout_height="70px"   
+    android:layout_toRightOf="@id/zero"  
+    android:layout_below="@id/two"  
+    android:textSize="40dip"  
+/>  
+<Button  
+    android:id="@+id/result"   
+    android:layout_width="80px"   
+    android:layout_height="70px"   
+    android:layout_toRightOf="@id/clear"  
+    android:layout_below="@id/three"  
+    android:textSize="40dip"  
+/>  
+<Button  
+    android:layout_alignParentRight="true"  
+    android:id="@+id/divide"   
+    android:layout_width="80px"   
+    android:layout_height="70px"   
+    android:layout_toRightOf="@id/result"  
+    android:layout_below="@id/multiply"  
+    android:textSize="40dip"  
+/>  
+  
+</RelativeLayout>  
+ </LinearLayout>  

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">newsen</string>
+	<string name="action_settings">Settings</string>
+    <string name="text_tab_setting">  设置</string>
+    <string name="text_account">  修改监护人号码</string>
+    <string name="text_notification">  开启查看定位</string>
+    <string name="text_privacy">  运动速度设置</string>
+    <string name="text_general">  警报铃声设置</string>
+    <string name="text_about">  使用说明</string>
+    <string name="button_backward">  返回</string>
+     <string name="text_exit">退&#160;出</string>
+     <string name="button_login">准备检测</string>
+     <string name="button_baocun">设为默认号码</string>
+</resources>

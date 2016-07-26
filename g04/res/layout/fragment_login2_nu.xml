@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sen4.Login$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/phonenumber"
+        android:layout_alignRight="@+id/button1"
+        android:layout_marginBottom="36dp"
+        android:text="" />
+
+    <Button
+    	android:id="@+id/button_login"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_centerVertical="true"
+    	android:layout_marginLeft="22dp"
+    	android:layout_toRightOf="@+id/button_baocun"
+    	android:onClick="login"
+    	android:text="@string/button_login" />
+
+    <Button
+    	android:id="@+id/button_baocun"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true"
+    	android:layout_alignTop="@+id/button_login"
+    	android:text="@string/button_baocun" />
+
+    <EditText
+    	android:id="@+id/phonenumber"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_above="@+id/button_login"
+    	android:layout_alignRight="@+id/button_login"
+    	android:layout_marginBottom="56dp"
+    	android:layout_toRightOf="@+id/textView1"
+    	android:ems="10"
+    	android:hint="请输入监护人的电话号码！"
+    	android:inputType="phone"
+    	android:phoneNumber="true" >
+
+    	<requestFocus />
+    </EditText>
+
+</RelativeLayout>

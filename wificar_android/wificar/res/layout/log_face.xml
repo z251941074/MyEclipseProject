@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical" 
+  android:background="@drawable/background" >
+  <RelativeLayout android:id="@+id/RelativeLayoutViewImage" 
+    	android:layout_margin="0dip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"			 
+		>
+		/* 显示左上角的logo*/
+  <ImageView android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+  	android:background="@drawable/yqlogo" 
+  	android:layout_width="120px" android:layout_height="62px" >
+  </ImageView>
+  </RelativeLayout>
+  /* 在中间   显示图片" 无线智能视频定位车"  */
+  <LinearLayout android:id="@+id/RelativeLayoutViewButton" 
+  		android:gravity="center" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 			 
+		>
+		<ImageView android:background="@drawable/title" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+  		>
+  		</ImageView>
+		</LinearLayout>  
+		/*  在中间显示按钮  用ImageButton让界面好看点  */
+  <LinearLayout android:id="@+id/RelativeLayoutViewButton" 
+  		android:gravity="center" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 			 
+		>
+  <ImageButton android:src="@drawable/setting"  android:id="@+id/button_set" 
+    	android:layout_width="90px" android:layout_height="90px" 
+		></ImageButton>  
+  <ImageButton android:id="@+id/button_cam"  android:src="@drawable/camera" 
+		android:layout_width="90px" android:layout_height="90px" android:layout_marginLeft="20px">
+		</ImageButton> 
+  <ImageButton android:text="exit" android:id="@+id/button_exit"  android:src="@drawable/exit" 
+		android:layout_width="90px" android:layout_height="90px" android:layout_marginLeft="20px">
+		</ImageButton> 
+  </LinearLayout>
+</LinearLayout>
+
+
+
+
