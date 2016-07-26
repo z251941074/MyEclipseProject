@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:background="@drawable/bg"
+    android:padding="10dp"
+    android:shrinkColumns="1"
+    android:stretchColumns="0"
+    
+    tools:context=".ControlChoice" >
+   
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_weight="1"
+        >
+		    <TextView
+		        android:id="@+id/textView1"
+				android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+		        android:layout_gravity="center_vertical"
+		        android:textSize="20sp"
+		        android:textColor="#000000"
+		        android:text="@string/com_input" />
+		    
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+
+		        <Button
+		            android:id="@+id/button1"
+		            android:layout_width="wrap_content"
+        		    android:layout_height="wrap_content"
+		            android:layout_weight="1" 
+		            android:text="@string/openled" />
+		        
+		           <Button
+		            android:id="@+id/button3"
+		            android:layout_width="wrap_content"
+      		        android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="@string/openwater" />
+		           
+		    </LinearLayout>
+		    
+	</LinearLayout>
+
+     <LinearLayout 
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_weight="1"
+        >
+		    <TextView
+		        android:id="@+id/textView2"
+				android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+		   	    android:textColor="#000000"
+		        android:textSize="20sp"
+		        android:text="@string/inq_input" />
+
+		    <Button
+		        android:id="@+id/button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/inq_input_btn" />
+
+    </LinearLayout>
+    
+	 <LinearLayout 
+	        android:layout_width="fill_parent"
+       		android:layout_height="wrap_content"
+	        android:layout_weight="2"
+	        android:orientation="vertical" 
+	        >
+		    <TextView
+		        android:id="@+id/textView3"
+		        android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20sp"
+		        android:text="@string/inq_show" />
+		
+		     <EditText
+		         android:id="@+id/Roomifno"
+		         android:layout_width="fill_parent"
+		         android:layout_height="fill_parent"
+
+		         
+		         android:gravity="top"
+		         android:textSize="20sp"
+		         android:hint="@string/inq_show_edit"
+		         android:textColor="#FFFAFA"/>  
+
+      </LinearLayout>
+</LinearLayout>

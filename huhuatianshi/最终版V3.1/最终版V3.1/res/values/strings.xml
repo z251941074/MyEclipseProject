@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">远程智能植物监控装置</string>
+    <string name="menu_settings">Settings</string>
+    <string name="com_input">控制命令输入</string>
+    <string name="openled">关闭浇花</string>
+    <string name="openwater">打开水阀</string>
+    <string name="inq_input">查询命令输入</string>
+    <string name="inq_show">环境状态显示</string>
+    <string name="inq_input_btn">状态查询</string>
+    <string name="inq_show_edit">室内环境显示</string>
+    <string name="province">省份</string>
+    <string name="title_activity_main">远程智能植物监控装置</string>
+
+</resources>

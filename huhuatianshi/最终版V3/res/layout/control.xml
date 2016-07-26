@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:background="@drawable/bg"
+    android:padding="10dp"
+    android:shrinkColumns="1"
+    android:stretchColumns="0"
+    
+    tools:context=".ControlChoice" >
+   
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_weight="1"
+        >
+		    <TextView
+		        android:id="@+id/textView1"
+				android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+		        android:layout_gravity="center_vertical"
+		        android:textColor="#000000"
+            	android:textSize="25sp"
+		        android:text="状态查询" />
+		    
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+
+		        <Button
+		        android:id="@+id/button6"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/chaxun5"
+		         /> 
+		        <Button
+		        android:id="@+id/button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="爱花查询" /> 
+		        <Button
+		         android:id="@+id/button10"
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:text="读取状态" />
+		           
+		    </LinearLayout>
+		    
+	</LinearLayout>
+
+     <LinearLayout 
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_weight="1"
+        >
+		    <TextView
+		        android:id="@+id/textView2"
+				android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+		   	    android:textColor="#000000"
+            	android:textSize="25sp"
+		        android:text="打开水阀" />
+		    
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+		     <Button
+		        android:id="@+id/button8"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/shuifa3" />
+
+		     <Button
+		         android:id="@+id/button3"
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:text="爱花浇水" />
+		      
+
+		   </LinearLayout>
+
+    </LinearLayout>
+    
+      <LinearLayout 
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_weight="1"
+        >
+		    <TextView
+		        android:id="@+id/textView2"
+				android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+		   	    android:textColor="#000000"
+           		android:textSize="25sp"
+		        android:text="关闭水阀" />
+			<LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+		     <Button
+		        android:id="@+id/button9"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/shui1" />
+
+		     <Button
+		         android:id="@+id/button1"
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:text="关闭浇水" />
+		     <Button
+		         android:id="@+id/button11"
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:text="读取状态" />
+
+		   </LinearLayout>
+		     
+
+    </LinearLayout>
+    
+	 <LinearLayout 
+	        android:layout_width="fill_parent"
+       		android:layout_height="wrap_content"
+	        android:layout_weight="6"
+	        android:orientation="vertical" 
+	        >
+		    <TextView
+		        android:id="@+id/textView3"
+		        android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+           		android:textSize="25sp"
+		        android:text="@string/inq_show" />
+		
+		     <EditText
+		         android:id="@+id/Roomifno"
+		         android:layout_width="fill_parent"
+		         android:layout_height="fill_parent"
+
+		         
+		         android:gravity="top"
+		         android:textSize="20sp"
+		         android:hint="爱花生长环境显示"
+		         android:textColor="#000000"/>  
+
+      </LinearLayout>
+</LinearLayout>
